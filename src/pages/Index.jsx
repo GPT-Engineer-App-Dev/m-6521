@@ -52,8 +52,11 @@ const Index = () => {
           </ListItem>
         ))}
       </List>
+      <Footer />
     </VStack>
   );
 };
+
+import Footer from "../components/Footer.jsx";
 
 export default Index;
